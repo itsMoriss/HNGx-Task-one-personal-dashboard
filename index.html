@@ -8,16 +8,20 @@
 </head>
 <body>
     <!-- Slack Name -->
-    <h1 data-testid="slackUserName">Moris Mwai</h1>
+    <label for="slackName">Slack Name:</label>
+    <h1 id="slackName" data-testid="slackUserName">Moris Mwai</h1>
 
     <!-- Slack Display Picture -->
-    <img src="assets/images/slack-profile.jpg" alt="Moris Mwai" data-testid="slackDisplayImage">
+    <!-- <label for="slackImage">Slack Display Picture:</label> -->
+    <img src="assets/images/slack-profile.jpg" alt="Moris Mwai" id="slackImage" data-testid="slackDisplayImage">
 
     <!-- Current Day of the Week -->
-    <p data-testid="currentDayOfTheWeek"></p>
+    <label for="dayOfWeek">Current Day of the Week:</label>
+    <p id="dayOfWeek" data-testid="currentDayOfTheWeek"></p>
 
     <!-- Current UTC Time -->
-    <p data-testid="currentUTCTime"></p>
+    <label for="utcTime">Current UTC Time (in milliseconds):</label>
+    <p id="utcTime" data-testid="currentUTCTime"></p>
 
     <!-- Track -->
     <p data-testid="myTrack">Frontend</p>
